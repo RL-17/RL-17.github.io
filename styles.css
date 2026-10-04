@@ -55,6 +55,12 @@ body {
   color: #fff; padding: 110px 0 100px;
 }
 .hero-eyebrow { text-transform: uppercase; letter-spacing: 0.14em; font-size: 0.8rem; color: #9fc0d8; margin-bottom: 14px; }
+.hero-inner { display: flex; align-items: center; gap: 48px; }
+.hero-photo {
+  width: 215px; height: 215px; border-radius: 50%; object-fit: cover; flex-shrink: 0;
+  border: 5px solid rgba(255, 255, 255, 0.28);
+  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.28);
+}
 .hero h1 { font-size: clamp(2.6rem, 6vw, 4.2rem); font-weight: 800; letter-spacing: -0.03em; line-height: 1.05; }
 .hero-title { margin-top: 16px; font-size: 1.12rem; color: #d7e5f2; font-weight: 500; }
 .hero-title .sep { margin: 0 6px; color: #7fa3c2; }
@@ -190,6 +196,9 @@ body {
   .nav-links a:last-child { border-bottom: none; }
   .nav-toggle { display: block; }
   .hero { padding: 80px 0 70px; }
+  .hero-inner { flex-direction: column; text-align: center; gap: 28px; }
+  .hero-photo { width: 170px; height: 170px; }
+  .hero-actions { justify-content: center; }
   .section { padding: 60px 0; }
   .job-head { flex-direction: column; }
   .project-body { padding: 26px 22px 6px; }
